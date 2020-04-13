@@ -3,14 +3,17 @@
 <html>
 
     <head>
-        <title>And Now</title>
+        <title>Refresh</title>
         <link rel="stylesheet" type="text/css"href="css/main.css">
     </head>
 
-    <body>
-        <h1 style="text-align: center;">Want soup?</h1>
-
-        <p style="text-align: center;"><a href="index.html">Click here to warm it up</a></p>
+    <body bgcolor="#fd1f91">
+       <script type="text/javascript">
+       		var bg_color = Math.floor(Math.random() * 16777215).toString(16);
+       		bg_color = "#" + ("000000" + bg_color).slice(-6);
+       		document.bgcolor = bg_color;
+       </script>
+        <p style="text-align: center;"><a href="index.html">Exit</a></p>
     </body>
 
 </html>
